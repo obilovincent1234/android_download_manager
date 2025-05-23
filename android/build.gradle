@@ -24,6 +24,8 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 30
 
+    namespace 'com.tk.android_download_manager' // ADD THIS LINE
+    
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
