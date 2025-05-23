@@ -22,10 +22,10 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 33  // UPDATED from 30 to 33
 
-    namespace 'com.tk.android_download_manager' // ADD THIS LINE
-    
+    namespace 'com.tk.android_download_manager' // Ensure this line is included
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
